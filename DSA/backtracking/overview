@@ -1,0 +1,99 @@
+# What is Backtracking?
+
+Backtracking means:
+
+Try one choice → continue → if needed, undo the choice → try another choice.
+
+It's like exploring every path in a maze.
+
+# The 4 Questions You Ask
+
+Whenever you see a possible backtracking problem, ask these questions in order.
+
+##  What is my current state?
+
+What have I built so far?
+
+### example 
+Example:
+
+Current string = "ad"
+
+or
+
+Current subset = [1, 3]
+
+You need a variable that stores your progress.
+
+## Usually:
+
+string current;
+
+or
+
+vector<int> current;
+
+
+# When is my answer complete?
+
+This is the base case.
+
+## example 
+Input:
+
+234
+
+When you've chosen one letter for every digit:
+
+adg
+
+you're done.
+
+
+# What choices do I have now?
+This is the most important question.
+
+For digit
+
+2
+
+choices are
+
+a
+b
+c
+
+For digit
+
+7
+
+choices are
+
+p
+q
+r
+s
+
+Every backtracking problem asks:
+
+What are my choices at this step?
+
+# How do I undo my choice?
+Suppose
+
+Current = "a"
+
+Choose
+
+d
+
+Now
+
+Current = "ad"
+
+When you're finished exploring everything starting with "ad", you must remove 'd':
+
+Current = "a"
+
+This is called backtracking.
+
