@@ -1,50 +1,71 @@
-# 📊 DSA Progress Dashboard
+# DSA Progress Dashboard & Roadmap
 
 > **Repository:** [data-structures-and-algorithms](https://github.com/lakhanpal-learns/data-structures-and-algorithms)  
-> **Purpose:** Track problem write-ups currently stored in this repository.
+> **Purpose:** One place to track documented problems, the long-term DSA target, and next improvements.
 
-## At a glance
+## 1. Repository documentation snapshot
 
-| Metric | Count |
-|---|---:|
-| Problem write-ups found | **37** |
-| Easy | **29** |
-| Medium | **8** |
-| Hard | **0** |
-| Categories with problem files | **6** |
+These counts are based on problem Markdown files currently stored in the repository's Easy/Medium/Hard problem folders. Folder-based categories reflect the repository structure, not necessarily the algorithm pattern used in every problem.
 
-> **Important:** These numbers count Markdown problem files in the repository's Easy/Medium/Hard problem folders. They do **not** prove that every problem was accepted on LeetCode or solved independently. LeetCode submission status is not currently connected to this dashboard.
-
-## Problems by category
-
-| Repository category | Easy | Medium | Hard | Total |
+| Repository folder/category | Easy | Medium | Hard | Total |
 |---|---:|---:|---:|---:|
-| Arrays | 6 | 0 | 0 | **6** |
+| Arrays | 13 | 0 | 0 | **13** |
 | Backtracking | 1 | 1 | 0 | **2** |
 | Hash table folder* | 8 | 7 | 0 | **15** |
 | Pointer / two-pointer folder | 7 | 0 | 0 | **7** |
 | Recursion | 6 | 0 | 0 | **6** |
 | Sliding window | 1 | 0 | 0 | **1** |
-| **Total** | **29** | **8** | **0** | **37** |
+| **Total** | **36** | **8** | **0** | **44** |
 
-\*Counts follow the folder names in the repository. Some files in the hash table folder cover linked lists or other concepts, so these are repository-folder counts rather than a verified classification of each algorithm.
+- **Easy notes:** 36
+- **Medium notes:** 8
+- **Hard notes:** 0
+- **Total problem write-ups:** 44
 
-## Progress visualization
+\*Counts follow folder names. Some files under the hash table folder cover linked lists or other concepts, so folder totals are not a perfect algorithm-pattern classification.
 
-- Easy: 29 / 37 write-ups (**78.4%** of the files)
-- Medium: 8 / 37 write-ups (**21.6%** of the files)
-- Hard: 0 / 37 write-ups (**0%** of the files)
+> **Important:** A note in the repository does not prove that a problem was independently solved or accepted on LeetCode. LeetCode submission status is not connected to this dashboard.
 
-These percentages describe the difficulty mix of the documented problems, **not completion against the total LeetCode catalog**.
+## 2. Long-term DSA learning roadmap
 
-## Next improvements
+The roadmap below preserves the planned topic targets. The target is **465 problems** across 22 phases. Use it as a syllabus; the repository snapshot above is the current count of written problem notes. These are different measurements.
 
-- [ ] Add a status field to each problem: `Planned`, `Attempted`, `Solved`, `Accepted`, `Needs Revision`.
-- [ ] Record the LeetCode problem URL and accepted submission status where applicable.
-- [ ] Track date solved, number of attempts, and last revision date.
-- [ ] Update this dashboard when problem files are added or status changes.
+| Phase | Topic | Total target | Easy | Medium | Hard |
+|---:|---|---:|---:|---:|---:|
+| 1 | Arrays | 30 | 10 | 15 | 5 |
+| 2 | Strings | 25 | 8 | 13 | 4 |
+| 3 | Hash Table | 25 | 8 | 13 | 4 |
+| 4 | Two Pointers | 20 | 7 | 10 | 3 |
+| 5 | Sliding Window | 20 | 6 | 11 | 3 |
+| 6 | Binary Search | 20 | 7 | 10 | 3 |
+| 7 | Stack | 20 | 7 | 10 | 3 |
+| 8 | Queue | 10 | 4 | 5 | 1 |
+| 9 | Linked List | 20 | 7 | 10 | 3 |
+| 10 | Recursion | 15 | 5 | 8 | 2 |
+| 11 | Binary Tree | 35 | 10 | 18 | 7 |
+| 12 | BST | 15 | 5 | 8 | 2 |
+| 13 | Heap (Priority Queue) | 20 | 6 | 11 | 3 |
+| 14 | Greedy | 25 | 7 | 14 | 4 |
+| 15 | Backtracking | 20 | 5 | 11 | 4 |
+| 16 | Graph (BFS + DFS) | 35 | 10 | 18 | 7 |
+| 17 | Union Find | 10 | 3 | 5 | 2 |
+| 18 | Topological Sort | 10 | 3 | 5 | 2 |
+| 19 | Trie | 10 | 3 | 5 | 2 |
+| 20 | Prefix Sum | 15 | 5 | 8 | 2 |
+| 21 | Bit Manipulation | 20 | 7 | 10 | 3 |
+| 22 | Dynamic Programming | 50 | 12 | 28 | 10 |
+| **Total** | | **465** | **145** | **246** | **74** |
 
-## Repository links
+## 3. Next improvements
+
+- [ ] Add a status to each problem: `Planned`, `Attempted`, `Solved`, `Accepted`, or `Needs Revision`.
+- [ ] Record the LeetCode URL and acceptance status when known.
+- [ ] Track date solved, attempts, and last revision date.
+- [ ] Refresh the repository note counts when files are added or removed.
+- [ ] Track actual solved progress separately from written notes.
+
+## 4. Repository links
 
 - [README](README.md)
 - [DSA cheat sheet](dsa_sheet.md)
+- [Problem-solving patterns](07_Problem_Solving_Patterns.md)
