@@ -61,6 +61,8 @@ Each solution includes:
 
 ## 📊 Progress
 
+See the [DSA Progress Dashboard](PROGRESS_DASHBOARD.md) for repository problem counts by category and difficulty. Counts reflect documented problem files, not verified LeetCode accepted submissions.
+
 | Topic | Problems Solved |
 |--------|----------------:|
 | Arrays | 0 |
