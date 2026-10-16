@@ -56,16 +56,25 @@ The roadmap below preserves the planned topic targets. The target is **465 probl
 | 22 | Dynamic Programming | 50 | 12 | 28 | 10 |
 | **Total** | | **465** | **145** | **246** | **74** |
 
-## 3. Next improvements
+## 3. Curated Medium problem queue (40–70% acceptance)
 
-- [ ] Add a status to each problem: `Planned`, `Attempted`, `Solved`, `Accepted`, or `Needs Revision`.
-- [ ] Record the LeetCode URL and acceptance status when known.
+A separate problem-by-problem queue is now available, filtered for **LeetCode Medium problems with approximately 40–70% acceptance**. Acceptance rates change, so treat listed percentages as reference snapshots and verify on the linked LeetCode page.
+
+- [Open the Medium Problem Roadmap](MEDIUM_PROBLEM_ROADMAP.md)
+- The queue currently contains **40 selected problems** across arrays, hashing, sliding window, stack, greedy, graphs, trees, dynamic programming, and design.
+- Status begins as `Planned`; update it only after attempting each problem.
+
+## 4. Next improvements
+
+- [ ] Add or update each problem's status: `Planned`, `Attempted`, `Solved`, `Accepted`, or `Needs Revision`.
+- [ ] Record the LeetCode URL and current acceptance status when known.
 - [ ] Track date solved, attempts, and last revision date.
-- [ ] Refresh the repository note counts when files are added or removed.
+- [ ] Refresh repository note counts when files are added or removed.
 - [ ] Track actual solved progress separately from written notes.
 
-## 4. Repository links
+## 5. Repository links
 
 - [README](README.md)
 - [DSA cheat sheet](dsa_sheet.md)
 - [Problem-solving patterns](07_Problem_Solving_Patterns.md)
+- [Medium Problem Roadmap](MEDIUM_PROBLEM_ROADMAP.md)
