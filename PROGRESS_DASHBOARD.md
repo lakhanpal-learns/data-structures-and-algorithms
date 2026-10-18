@@ -9,18 +9,18 @@ These counts are based on problem Markdown files currently stored in the reposit
 
 | Repository folder/category | Easy | Medium | Hard | Total |
 |---|---:|---:|---:|---:|
-| Arrays | 13 | 1 | 0 | **14** |
+| Arrays | 13 | 2 | 0 | **15** |
 | Backtracking | 1 | 1 | 0 | **2** |
 | Hash table folder* | 8 | 7 | 0 | **15** |
 | Pointer / two-pointer folder | 7 | 0 | 0 | **7** |
 | Recursion | 6 | 0 | 0 | **6** |
 | Sliding window | 1 | 0 | 0 | **1** |
-| **Total** | **36** | **9** | **0** | **45** |
+| **Total** | **36** | **10** | **0** | **46** |
 
 - **Easy notes:** 36
-- **Medium notes:** 9
+- **Medium notes:** 10
 - **Hard notes:** 0
-- **Total problem write-ups:** 45
+- **Total problem write-ups:** 46
 
 \*Counts follow folder names. Some files under the hash table folder cover linked lists or other concepts, so folder totals are not a perfect algorithm-pattern classification.
 
@@ -67,8 +67,9 @@ A separate problem-by-problem queue is now available, filtered for **LeetCode Me
 ## 4. Latest learning activity
 
 - Added the LeetCode 560 — Subarray Sum Equals K write-up, including the algorithm-discovery process and prefix-sum frequency reasoning.
-- Dry-run test case: `nums = [2, 3, 1, 2, 4, 3]`, `k = 7` → output `2` (valid subarrays: `[1, 2, 4]` and `[4, 3]`).
-- This records documentation and a reviewed test case only; it does **not** claim a verified LeetCode Accepted submission.
+- Added the LeetCode 209 — Minimum Size Subarray Sum write-up, deriving sliding window from brute force and explaining repeated shrinking, inclusive window length, and the sentinel initialization.
+- Dry-run test case for LeetCode 209: `target = 7`, `nums = [2, 3, 1, 2, 4, 3]` → output `2` (shortest valid subarray: `[4, 3]`).
+- This records documentation and reviewed test cases only; it does **not** claim verified LeetCode Accepted submissions.
 
 ## 5. Next improvements
 
