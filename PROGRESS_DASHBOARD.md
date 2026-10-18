@@ -9,18 +9,18 @@ These counts are based on problem Markdown files currently stored in the reposit
 
 | Repository folder/category | Easy | Medium | Hard | Total |
 |---|---:|---:|---:|---:|
-| Arrays | 13 | 0 | 0 | **13** |
+| Arrays | 13 | 1 | 0 | **14** |
 | Backtracking | 1 | 1 | 0 | **2** |
 | Hash table folder* | 8 | 7 | 0 | **15** |
 | Pointer / two-pointer folder | 7 | 0 | 0 | **7** |
 | Recursion | 6 | 0 | 0 | **6** |
 | Sliding window | 1 | 0 | 0 | **1** |
-| **Total** | **36** | **8** | **0** | **44** |
+| **Total** | **36** | **9** | **0** | **45** |
 
 - **Easy notes:** 36
-- **Medium notes:** 8
+- **Medium notes:** 9
 - **Hard notes:** 0
-- **Total problem write-ups:** 44
+- **Total problem write-ups:** 45
 
 \*Counts follow folder names. Some files under the hash table folder cover linked lists or other concepts, so folder totals are not a perfect algorithm-pattern classification.
 
@@ -64,7 +64,13 @@ A separate problem-by-problem queue is now available, filtered for **LeetCode Me
 - The queue currently contains **40 selected problems** across arrays, hashing, sliding window, stack, greedy, graphs, trees, dynamic programming, and design.
 - Status begins as `Planned`; update it only after attempting each problem.
 
-## 4. Next improvements
+## 4. Latest learning activity
+
+- Added the LeetCode 560 — Subarray Sum Equals K write-up, including the algorithm-discovery process and prefix-sum frequency reasoning.
+- Dry-run test case: `nums = [2, 3, 1, 2, 4, 3]`, `k = 7` → output `2` (valid subarrays: `[1, 2, 4]` and `[4, 3]`).
+- This records documentation and a reviewed test case only; it does **not** claim a verified LeetCode Accepted submission.
+
+## 5. Next improvements
 
 - [ ] Add or update each problem's status: `Planned`, `Attempted`, `Solved`, `Accepted`, or `Needs Revision`.
 - [ ] Record the LeetCode URL and current acceptance status when known.
@@ -72,7 +78,7 @@ A separate problem-by-problem queue is now available, filtered for **LeetCode Me
 - [ ] Refresh repository note counts when files are added or removed.
 - [ ] Track actual solved progress separately from written notes.
 
-## 5. Repository links
+## 6. Repository links
 
 - [README](README.md)
 - [DSA cheat sheet](dsa_sheet.md)
