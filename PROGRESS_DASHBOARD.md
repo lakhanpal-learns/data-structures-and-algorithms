@@ -9,18 +9,18 @@ These counts are based on problem Markdown files currently stored in the reposit
 
 | Repository folder/category | Easy | Medium | Hard | Total |
 |---|---:|---:|---:|---:|
-| Arrays | 13 | 2 | 0 | **15** |
+| Arrays | 13 | 15 | 0 | **28** |
 | Backtracking | 1 | 1 | 0 | **2** |
 | Hash table folder* | 8 | 7 | 0 | **15** |
 | Pointer / two-pointer folder | 7 | 0 | 0 | **7** |
 | Recursion | 6 | 0 | 0 | **6** |
 | Sliding window | 1 | 0 | 0 | **1** |
-| **Total** | **36** | **10** | **0** | **46** |
+| **Total** | **36** | **23** | **0** | **59** |
 
 - **Easy notes:** 36
-- **Medium notes:** 10
+- **Medium notes:** 23
 - **Hard notes:** 0
-- **Total problem write-ups:** 46
+- **Total problem write-ups:** 59
 
 \*Counts follow folder names. Some files under the hash table folder cover linked lists or other concepts, so folder totals are not a perfect algorithm-pattern classification.
 
@@ -58,7 +58,7 @@ The roadmap below preserves the planned topic targets. The target is **465 probl
 
 ## 3. Curated Medium problem queue (40–70% acceptance)
 
-A separate problem-by-problem queue is now available, filtered for **LeetCode Medium problems with approximately 40–70% acceptance**. Acceptance rates change, so treat listed percentages as reference snapshots and verify on the linked LeetCode page.
+A separate problem-by-problem queue is available, filtered for **LeetCode Medium problems with approximately 40–70% acceptance**. Acceptance rates change, so treat listed percentages as reference snapshots and verify on the linked LeetCode page.
 
 - [Open the Medium Problem Roadmap](MEDIUM_PROBLEM_ROADMAP.md)
 - The queue currently contains **40 selected problems** across arrays, hashing, sliding window, stack, greedy, graphs, trees, dynamic programming, and design.
@@ -68,6 +68,8 @@ A separate problem-by-problem queue is now available, filtered for **LeetCode Me
 
 - Added the LeetCode 560 — Subarray Sum Equals K write-up, including the algorithm-discovery process and prefix-sum frequency reasoning.
 - Added the LeetCode 209 — Minimum Size Subarray Sum write-up, deriving sliding window from brute force and explaining repeated shrinking, inclusive window length, and the sentinel initialization.
+- Added the LeetCode 34 — Find First and Last Position of Element in Sorted Array write-up, covering `binary_search()`, `lower_bound()`, `upper_bound()`, and a step-by-step dry run.
+- The Array folders currently contain **28 problem write-ups: 13 Easy and 15 Medium**, based on the latest folder screenshots. This is documentation progress, not a claim that every problem has been accepted on LeetCode.
 - Dry-run test case for LeetCode 209: `target = 7`, `nums = [2, 3, 1, 2, 4, 3]` → output `2` (shortest valid subarray: `[4, 3]`).
 - This records documentation and reviewed test cases only; it does **not** claim verified LeetCode Accepted submissions.
 
