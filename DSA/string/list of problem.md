@@ -30,8 +30,8 @@ A curated practice list for learning core string patterns in C++. Problems are g
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Tokenization, whitespace handling |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Parsing numeric segments |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | In-place writing, run-length encoding |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Expand around center, palindrome counting |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Character frequencies, custom ordering |
-| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Greedy conversion practice |
 
 ## 3. How to Use This List
 
