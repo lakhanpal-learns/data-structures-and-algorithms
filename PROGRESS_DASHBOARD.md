@@ -15,13 +15,13 @@ These counts are based on problem Markdown files currently stored in the reposit
 | Pointer / two-pointer folder | 7 | 0 | 0 | **7** |
 | Recursion | 6 | 0 | 0 | **6** |
 | Sliding window | 1 | 0 | 0 | **1** |
-| Strings | 1 | 0 | 0 | **1** |
-| **Total** | **37** | **23** | **0** | **60** |
+| Strings | 2 | 0 | 0 | **2** |
+| **Total** | **38** | **23** | **0** | **61** |
 
-- **Easy notes:** 37
+- **Easy notes:** 38
 - **Medium notes:** 23
 - **Hard notes:** 0
-- **Total problem write-ups:** 60
+- **Total problem write-ups:** 61
 
 \*Counts follow folder names. Some files under the hash table folder cover linked lists or other concepts, so folder totals are not a perfect algorithm-pattern classification.
 
@@ -67,6 +67,7 @@ A separate problem-by-problem queue is available, filtered for **LeetCode Medium
 
 ## 4. Latest learning activity
 
+- Added the LeetCode 28 — Find the Index of the First Occurrence in a String write-up, including the brute-force C++ solution, loop-bound explanation, dry run, and complexity.
 - Added the LeetCode 14 — Longest Common Prefix write-up in `DSA/string/easy/`, including the C++ solution, dry runs, bounds-check explanation, complexity, and edge cases.
 - Added the LeetCode 560 — Subarray Sum Equals K write-up, including the algorithm-discovery process and prefix-sum frequency reasoning.
 - Added the LeetCode 209 — Minimum Size Subarray Sum write-up, deriving sliding window from brute force and explaining repeated shrinking, inclusive window length, and the sentinel initialization.
