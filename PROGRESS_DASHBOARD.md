@@ -15,13 +15,13 @@ These counts are based on problem Markdown files currently stored in the reposit
 | Pointer / two-pointer folder | 7 | 0 | 0 | **7** |
 | Recursion | 6 | 0 | 0 | **6** |
 | Sliding window | 1 | 0 | 0 | **1** |
-| Strings | 6 | 0 | 0 | **6** |
-| **Total** | **42** | **23** | **0** | **65** |
+| Strings | 7 | 0 | 0 | **7** |
+| **Total** | **43** | **23** | **0** | **66** |
 
-- **Easy notes:** 42
+- **Easy notes:** 43
 - **Medium notes:** 23
 - **Hard notes:** 0
-- **Total problem write-ups:** 65
+- **Total problem write-ups:** 66
 
 \*Counts follow folder names. Some files under the hash table folder cover linked lists or other concepts, so folder totals are not a perfect algorithm-pattern classification.
 
@@ -66,6 +66,8 @@ A separate problem-by-problem queue is available, filtered for **LeetCode Medium
 - Status begins as `Planned`; update it only after attempting each problem.
 
 ## 4. Latest learning activity
+
+- Added the LeetCode 344 — Reverse String write-up, covering in-place two-pointer swapping, signed index conversion, dry run, and complexity.
 
 - Added the LeetCode 242 — Valid Anagram write-up, including frequency-array reasoning, C++ solution, dry run, and complexity.\n- Added the LeetCode 1768 — Merge Strings Alternately write-up, including alternating merge, leftover handling, C++ solution, dry run, and complexity.\n- Added the LeetCode 125 — Valid Palindrome write-up, including the two-pointer approach, C++ solution, dry run, and complexity.\n- Added the LeetCode 58 — Length of Last Word write-up, including the backward-scan approach, C++ solution, dry run, and complexity.\n- Added the LeetCode 28 — Find the Index of the First Occurrence in a String write-up, including the brute-force C++ solution, loop-bound explanation, dry run, and complexity.
 - Added the LeetCode 14 — Longest Common Prefix write-up in `DSA/string/easy/`, including the C++ solution, dry runs, bounds-check explanation, complexity, and edge cases.
