@@ -15,13 +15,13 @@ These counts are based on problem Markdown files currently stored in the reposit
 | Pointer / two-pointer folder | 7 | 0 | 0 | **7** |
 | Recursion | 6 | 0 | 0 | **6** |
 | Sliding window | 1 | 0 | 0 | **1** |
-| Strings | 7 | 0 | 0 | **7** |
-| **Total** | **43** | **23** | **0** | **66** |
+| Strings | 8 | 0 | 0 | **8** |
+| **Total** | **44** | **23** | **0** | **67** |
 
-- **Easy notes:** 43
+- **Easy notes:** 44
 - **Medium notes:** 23
 - **Hard notes:** 0
-- **Total problem write-ups:** 66
+- **Total problem write-ups:** 67
 
 \*Counts follow folder names. Some files under the hash table folder cover linked lists or other concepts, so folder totals are not a perfect algorithm-pattern classification.
 
@@ -66,6 +66,8 @@ A separate problem-by-problem queue is available, filtered for **LeetCode Medium
 - Status begins as `Planned`; update it only after attempting each problem.
 
 ## 4. Latest learning activity
+
+- Added the LeetCode 392 — Is Subsequence write-up, covering two-pointer matching, mismatch handling, dry run, and complexity.
 
 - Added the LeetCode 344 — Reverse String write-up, covering in-place two-pointer swapping, signed index conversion, dry run, and complexity.
 
